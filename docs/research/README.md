@@ -2,7 +2,7 @@
 
 Research phase outputs for the PassSign RFC ("Passkey-Native Standard for Trusted Electronic Signatures").
 
-**Status:** Phases 1–4 complete (2026-07-17). Gate review: GO to Phase 5 (Protocol Proposal).
+**Status:** Phases 1–5 complete (2026-07-17). Next: Phase 6 (RFC Draft v0.1).
 
 ## Structure
 
@@ -16,6 +16,7 @@ Research phase outputs for the PassSign RFC ("Passkey-Native Standard for Truste
 
 1. [`deliverables/scorecard.md`](deliverables/scorecard.md) — hypothesis verdict, gap classification, gate decisions
 2. [`deliverables/doc-4-gap-analysis.md`](deliverables/doc-4-gap-analysis.md) — the pivotal document: 13-chapter gap register, Compose/Profile/Extend/Invent verdict, go/no-go
+3. [`deliverables/doc-5-protocol-proposal.md`](deliverables/doc-5-protocol-proposal.md) — the protocol: actors, ceremonies, evidence record, tiers, threat model
 2. [`deliverables/doc-2-technology-survey.md`](deliverables/doc-2-technology-survey.md) — Q1/Q3: technical feasibility (Streams 1–3)
 3. [`deliverables/doc-3-legal-landscape.md`](deliverables/doc-3-legal-landscape.md) — Q2: legal viability (Stream 4)
 4. [`deliverables/doc-1-current-state-analysis.md`](deliverables/doc-1-current-state-analysis.md) — Q4: differentiation and venue (Streams 5–6)
@@ -26,7 +27,7 @@ PassSign is a **novel composition of existing standards, not a new protocol**. P
 
 ## Pending
 
-- Document 5 — Protocol Proposal (Phase 5)
+
 - Document 6 — RFC Draft v0.1 (Phase 6)
 
 *Legal/regulatory content in these documents is design research, not legal advice.*
