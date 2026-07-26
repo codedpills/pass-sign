@@ -26,7 +26,7 @@ Three assurance tiers (Baseline / Assured / Qualified) make claims machine-check
 
 ## Status
 
-**Research and protocol design complete (Phases 1–5 of the program); RFC draft v0.1 is next.** Six research streams — WebAuthn internals, digital identity (VC/OID4VP/wallets), signature standards (CMS/AdES), legal frameworks (eIDAS, ESIGN/UETA, UK/SG/AU), market analysis, and standards-body landscape — all primary-source cited. Verdict: **PassSign is a novel composition of existing standards**; of thirteen analyzed gaps, the only "invent" item is the signing ceremony itself — which is this spec.
+**Research program complete: all six documents (1–6), through RFC Draft v0.1.** Six research streams — WebAuthn internals, digital identity (VC/OID4VP/wallets), signature standards (CMS/AdES), legal frameworks (eIDAS, ESIGN/UETA, UK/SG/AU), market analysis, and standards-body landscape — all primary-source cited. Verdict: **PassSign is a novel composition of existing standards**; of thirteen analyzed gaps, the only "invent" item is the signing ceremony itself — which is now specified. Public engagement with the relevant in-flight W3C work ([w3c/webauthn#2078](https://github.com/w3c/webauthn/pull/2078)) is underway.
 
 | Milestone | Status |
 |---|---|
@@ -34,9 +34,9 @@ Three assurance tiers (Baseline / Assured / Qualified) make claims machine-check
 | Research program (6 streams, 3 phase documents, scorecard) | ✅ [`docs/research/`](docs/research/) |
 | Gap analysis & verdict | ✅ [`docs/research/deliverables/doc-4-gap-analysis.md`](docs/research/deliverables/doc-4-gap-analysis.md) |
 | Protocol proposal | ✅ [`docs/research/deliverables/doc-5-protocol-proposal.md`](docs/research/deliverables/doc-5-protocol-proposal.md) |
-| RFC draft v0.1 | 🔜 next |
+| RFC draft v0.1 | ✅ [`docs/research/deliverables/doc-6-rfc-draft-v0.1.md`](docs/research/deliverables/doc-6-rfc-draft-v0.1.md) |
 | Reference implementation & test vectors | planned |
-| W3C Community Group + standards engagement | planned |
+| W3C Community Group + standards engagement | in progress |
 
 ## Repository layout
 
