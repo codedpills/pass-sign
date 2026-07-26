@@ -26,7 +26,10 @@ Three assurance tiers (Baseline / Assured / Qualified) make claims machine-check
 
 ## Status
 
-**Research program complete: all six documents (1–6), through RFC Draft v0.1.** Six research streams — WebAuthn internals, digital identity (VC/OID4VP/wallets), signature standards (CMS/AdES), legal frameworks (eIDAS, ESIGN/UETA, UK/SG/AU), market analysis, and standards-body landscape — all primary-source cited. Verdict: **PassSign is a novel composition of existing standards**; of thirteen analyzed gaps, the only "invent" item is the signing ceremony itself — which is now specified. Public engagement with the relevant in-flight W3C work ([w3c/webauthn#2078](https://github.com/w3c/webauthn/pull/2078)) is underway.
+**Research program complete: all six documents (1–6), through RFC Draft v0.1.** 
+Six research streams: WebAuthn internals, digital identity (VC/OID4VP/wallets), signature standards (CMS/AdES), legal frameworks (eIDAS, ESIGN/UETA, UK/SG/AU), market analysis, and standards-body landscape — all primary-source cited. 
+
+Verdict: **PassSign is a novel composition of existing standards**; of thirteen analyzed gaps, the only "invent" item is the signing ceremony itself — which is now specified. Public engagement with the relevant in-flight W3C work ([w3c/webauthn#2078](https://github.com/w3c/webauthn/pull/2078)) is underway.
 
 | Milestone | Status |
 |---|---|
