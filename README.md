@@ -2,6 +2,8 @@
 
 **A passkey-native standard for trusted electronic signatures.**
 
+**W3C Community Group:** [passkey-signing](https://www.w3.org/community/passkey-signing/) · public mailing list: public-passkey-signing@w3.org
+
 Billions of people now hold hardware-backed cryptographic keys secured by biometrics — and use them only to log in. Meanwhile, electronic document signing remains fragmented, email-bound, and platform-locked. PassSign is an open protocol that extends the passkey ceremony into legally meaningful, cryptographically verifiable document signing: sign a contract the way you sign into a website.
 
 ## The core idea
@@ -26,10 +28,9 @@ Three assurance tiers (Baseline / Assured / Qualified) make claims machine-check
 
 ## Status
 
-**Research program complete: all six documents (1–6), through RFC Draft v0.1.** 
-Six research streams: WebAuthn internals, digital identity (VC/OID4VP/wallets), signature standards (CMS/AdES), legal frameworks (eIDAS, ESIGN/UETA, UK/SG/AU), market analysis, and standards-body landscape — all primary-source cited. 
+**PassSign is now developed in the open under the W3C [Passkey Document Signing Community Group](https://www.w3.org/community/passkey-signing/).** The six-document research program (below) established the technical, legal, and market case; Document 6 is now published as the group's first **Draft Community Group Report**, and work is governed by the [W3C Community Contributor License Agreement](https://www.w3.org/community/about/process/cla/).
 
-Verdict: **PassSign is a novel composition of existing standards**; of thirteen analyzed gaps, the only "invent" item is the signing ceremony itself — which is now specified. Public engagement with the relevant in-flight W3C work ([w3c/webauthn#2078](https://github.com/w3c/webauthn/pull/2078)) is underway.
+Verdict from the research program: **PassSign is a novel composition of existing standards**; of thirteen analyzed gaps, the only "invent" item is the signing ceremony itself — which Document 6 now specifies. The group is in active liaison with the relevant in-flight W3C work ([w3c/webauthn#2078](https://github.com/w3c/webauthn/pull/2078)).
 
 | Milestone | Status |
 |---|---|
@@ -37,9 +38,10 @@ Verdict: **PassSign is a novel composition of existing standards**; of thirteen 
 | Research program (6 streams, 3 phase documents, scorecard) | ✅ [`docs/research/`](docs/research/) |
 | Gap analysis & verdict | ✅ [`docs/research/deliverables/doc-4-gap-analysis.md`](docs/research/deliverables/doc-4-gap-analysis.md) |
 | Protocol proposal | ✅ [`docs/research/deliverables/doc-5-protocol-proposal.md`](docs/research/deliverables/doc-5-protocol-proposal.md) |
-| RFC draft v0.1 | ✅ [`docs/research/deliverables/doc-6-rfc-draft-v0.1.md`](docs/research/deliverables/doc-6-rfc-draft-v0.1.md) |
+| W3C Community Group launched | ✅ [passkey-signing](https://www.w3.org/community/passkey-signing/) |
+| First Draft Community Group Report published | ✅ [`docs/research/deliverables/doc-6-rfc-draft-v0.1.md`](docs/research/deliverables/doc-6-rfc-draft-v0.1.md) |
 | Reference implementation & test vectors | planned |
-| W3C Community Group + standards engagement | in progress |
+| Transition to W3C Working Group (via WebAuthn WG) | future |
 
 ## Repository layout
 
@@ -60,6 +62,6 @@ Reuse before inventing · Open by default (no single-operator dependency — sig
 
 ## Contributing
 
-The project is pre-RFC; the most valuable contributions right now are review of the protocol proposal's threat model and open issues (§9/§11), prior-art pointers we missed, and legal-framework review for additional jurisdictions. Open an issue to discuss.
+PassSign is developed as a W3C Community Group. To contribute: join the [Passkey Document Signing Community Group](https://www.w3.org/community/passkey-signing/) (free, no fee, individual or organizational participation) and sign the CLA at join time. The most valuable contributions right now are review of Document 6's threat model and open issues (§9/§13), prior-art pointers we missed, and legal-framework review for additional jurisdictions — via GitHub issues/PRs on this repo or the group's public mailing list.
 
 *Legal and regulatory statements in this repository are design research, not legal advice.*

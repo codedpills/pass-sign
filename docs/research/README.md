@@ -2,7 +2,7 @@
 
 Research phase outputs for the PassSign RFC ("Passkey-Native Standard for Trusted Electronic Signatures").
 
-**Status:** All six phases complete (2026-07-17). RFC Draft v0.1 published; standards engagement (w3c/webauthn#2078) underway.
+**Status:** All six phases complete. Document 6 is now published as the first Draft Community Group Report of the W3C [Passkey Document Signing Community Group](https://www.w3.org/community/passkey-signing/).
 
 ## Structure
 
