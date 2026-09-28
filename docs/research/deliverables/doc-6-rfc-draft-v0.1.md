@@ -4,9 +4,8 @@
 
 # PassSign: A Passkey-Native Protocol for Trusted Electronic Signatures
 
-**Document 6 — RFC Draft v0.1**
-**Status:** Individual draft, pre-submission. Not yet adopted by any standards body.
-**Intended venue:** W3C Community Group report, per the venue analysis in Document 1 §"Recommended Venue"; select components (CMS/JAdES attribute definitions, §9.3) intended additionally as IETF individual Internet-Drafts. This document is written in Internet-Draft-adjacent conventions (RFC 2119/8174 keywords, Security/Privacy/IANA Considerations) to be portable to either venue.
+**Document 6 — Draft Community Group Report, Version 0.1**
+**Status:** Published as a Draft Community Group Report of the Passkey Document Signing Community Group. Select components (CMS/JAdES attribute definitions, §9.3) are additionally intended as IETF individual Internet-Drafts. This document is written in Internet-Draft-adjacent conventions (RFC 2119/8174 keywords, Security/Privacy/IANA Considerations) to ease any future transition to the W3C Standards Track or IETF.
 **Author's Note:** This draft formalizes Document 5 (Protocol Proposal) and rests on the research and gate decisions recorded in Documents 1–5 of the PassSign Research Program. It defines a protocol; it does not itself constitute legal advice, and eIDAS/ESIGN/UETA tier mappings described herein require jurisdiction-specific counsel review before reliance.
 
 ---
@@ -15,13 +14,13 @@
 
 PassSign defines a signing ceremony and evidence format that composes WebAuthn passkey authorization, verifiable digital credentials, and existing digital-signature container standards (CAdES/PAdES/JAdES) into an open, interoperable protocol for legally meaningful electronic signatures. PassSign does not modify WebAuthn, does not replace eIDAS/ESIGN/UETA, and does not define new cryptographic primitives. It defines: (1) a Signing Manifest format that an application counter-signs to commit to what a signer is shown; (2) a ceremony binding a WebAuthn passkey assertion to that manifest as an authorization event; (3) an Evidence Record format, independently verifiable offline by any third party, that binds the authorization event, the resulting standard-format signature, and an identity-assurance context into one auditable artifact; and (4) conformance classes and assurance tiers that make every claim about a signature's strength machine-checkable rather than asserted.
 
-## Status of This Memo
+## Status of This Document
 
-This is a v0.1 individual draft produced by the PassSign project. It is not an IETF, W3C, ETSI, or FIDO Alliance work product. Discussion is invited via the project repository. Distribution of this memo is unlimited.
+This report was published by the [Passkey Document Signing Community Group](https://www.w3.org/community/passkey-signing/). It is not a W3C Standard nor is it on the W3C Standards Track. Please note that under the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/process/cla/) there is a limited opt-out and other conditions apply. Learn more about [W3C Community and Business Groups](https://www.w3.org/community/).
 
 ## Copyright Notice
 
-Copyright (c) 2026 the PassSign project contributors. This document is intended to be contributed under a royalty-free licensing commitment compatible with W3C Community Group Final Specification Agreement terms once a Community Group is chartered (Document 1, venue recommendation).
+Copyright © 2026 the Contributors to the "PassSign: A Passkey-Native Protocol for Trusted Electronic Signatures, Version 0.1" Specification, published by the [Passkey Document Signing Community Group](https://www.w3.org/community/passkey-signing/) under the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/process/cla/). A human-readable [summary](https://www.w3.org/community/about/process/cla-deed/) is available.
 
 ---
 
